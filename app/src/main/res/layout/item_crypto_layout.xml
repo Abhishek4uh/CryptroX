@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_margin="4dp"
+    android:background="@drawable/item_bg">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="8dp"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ivCoin"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:cardCornerRadius="30dp">
+
+            <ImageView
+                android:id="@+id/ivCoinImg"
+                android:layout_width="60dp"
+                android:layout_height="60dp"
+                android:scaleType="center"
+                android:src="@drawable/ic_launcher_background"/>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvTile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toTopOf="parent"
+            android:text="Bitcoin"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            android:textStyle="bold"
+            android:layout_marginTop="8dp"
+            app:layout_constraintStart_toEndOf="@id/ivCoin"/>
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/tvTile"
+            android:text="$12323242432.0002"
+            android:textColor="@color/black"
+            android:textSize="16sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toEndOf="@id/ivCoin"/>
+
+
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCmcRank"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cmc Rank-1"
+            android:textColor="@color/red"
+            android:textSize="12sp"
+            android:layout_marginTop="8dp"
+            android:layout_marginEnd="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvLastUpdated"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="29/03/2022"
+            android:textColor="@color/brown"
+            android:textSize="10sp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="12dp"
+            app:layout_constraintStart_toEndOf="@id/ivCoin"
+            app:layout_constraintTop_toBottomOf="@id/tvPrice" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

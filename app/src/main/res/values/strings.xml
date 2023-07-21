@@ -1,0 +1,18 @@
+<resources>
+
+    <string name="app_name">CryptroX</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="this_is_about_page">Copyright (c) 2023 <b>Abhishek</b></string>
+    <string name="not_available">Not Available</string>
+
+    <string name="total_supply"><b>Total Supply</b> refers to the total amount of coins or tokens of a specific cryptocurrency that have been created or mined, that are in circulation, including those that are locked or reserved</string>
+
+    <string name="max_supply"><b>Max Supply</b> refers to the total amount of coins or tokens, that can be mine maximum</string>
+
+    <string name="birthday"><b>Added in Market</b> Birthday of the coin</string>
+    <string name="cmc"><b>Cmc Rank</b> Coin Market cap</string>
+
+
+
+</resources>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:focusable="true"
+    android:elevation="10dp"
+    android:clickable="true"
+    tools:context=".ui.AboutFragment">
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tvTotalSup"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:padding="10dp"
+                            android:layout_margin="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:text="@string/total_supply"
+                            android:background="@drawable/card1_bg"
+                            app:layout_constraintTop_toTopOf="parent"/>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tvMaxSupply"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:padding="10dp"
+                            android:layout_margin="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:text="@string/max_supply"
+                            android:background="@drawable/card1_bg"
+                            app:layout_constraintTop_toBottomOf="@id/tvTotalSup"/>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tvAdded"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:padding="10dp"
+                            android:layout_margin="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:text="@string/birthday"
+                            android:background="@drawable/card1_bg"
+                            app:layout_constraintTop_toBottomOf="@id/tvMaxSupply"/>
+
+                        <androidx.appcompat.widget.AppCompatTextView
+                            android:id="@+id/tvCmcRank"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="16dp"
+                            android:padding="10dp"
+                            android:layout_margin="8dp"
+                            android:textSize="16sp"
+                            android:textColor="@color/black"
+                            android:text="@string/cmc"
+                            android:background="@drawable/card1_bg"
+                            app:layout_constraintTop_toBottomOf="@id/tvAdded"/>
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </ScrollView>
+
+        <androidx.appcompat.widget.AppCompatTextView
+            android:id="@+id/tvCopyright"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/this_is_about_page"
+            android:textColor="#00C853"
+            android:textSize="16sp"
+            app:fontFamily="sans-serif"
+            android:layout_marginBottom="16dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/drawable/background_bottom_sheet.xml" value="0.1885" />
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/drawable/card1_bg.xml" value="0.15" />
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/drawable/card2_bg.xml" value="0.15" />
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/drawable/ic_ico_close__1_.xml" value="0.206" />
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/drawable/item_bg.xml" value="0.1885" />
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/drawable/logo_bg.xml" value="0.15" />
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/drawable/red_bg.xml" value="0.1715" />
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/layout/activity_splash.xml" value="0.1984375" />
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/layout/fragment_about.xml" value="0.33" />
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/layout/fragment_details_info_bottomsheet.xml" value="0.33" />
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/layout/item_crypto_layout.xml" value="0.4762589928057554" />
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/layout/red_bg.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/Yulu/Downloads/CryptroX/app/src/main/res/menu/menu_res.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
